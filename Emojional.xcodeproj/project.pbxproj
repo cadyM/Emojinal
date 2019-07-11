@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E8E66422D7F93E00C5F5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8E66322D7F93E00C5F5EC /* AppDelegate.swift */; };
+		18E8E66622D7F93E00C5F5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8E66522D7F93E00C5F5EC /* ViewController.swift */; };
+		18E8E66922D7F93E00C5F5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E8E66722D7F93E00C5F5EC /* Main.storyboard */; };
+		18E8E66B22D7F94000C5F5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E8E66A22D7F94000C5F5EC /* Assets.xcassets */; };
+		18E8E66E22D7F94000C5F5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E8E66C22D7F94000C5F5EC /* LaunchScreen.storyboard */; };
+		18E8E67922D7F94000C5F5EC /* EmojionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8E67822D7F94000C5F5EC /* EmojionalTests.swift */; };
+		18E8E68422D7F94000C5F5EC /* EmojionalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8E68322D7F94000C5F5EC /* EmojionalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E8E67522D7F94000C5F5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E8E65822D7F93E00C5F5EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E8E65F22D7F93E00C5F5EC;
+			remoteInfo = Emojional;
+		};
+		18E8E68022D7F94000C5F5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E8E65822D7F93E00C5F5EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E8E65F22D7F93E00C5F5EC;
+			remoteInfo = Emojional;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E8E66022D7F93E00C5F5EC /* Emojional.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojional.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E8E66322D7F93E00C5F5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E8E66522D7F93E00C5F5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E8E66822D7F93E00C5F5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E8E66A22D7F94000C5F5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E8E66D22D7F94000C5F5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E8E66F22D7F94000C5F5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E8E67422D7F94000C5F5EC /* EmojionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E8E67822D7F94000C5F5EC /* EmojionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojionalTests.swift; sourceTree = "<group>"; };
+		18E8E67A22D7F94000C5F5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E8E67F22D7F94000C5F5EC /* EmojionalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojionalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E8E68322D7F94000C5F5EC /* EmojionalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojionalUITests.swift; sourceTree = "<group>"; };
+		18E8E68522D7F94000C5F5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E8E65D22D7F93E00C5F5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E8E67122D7F94000C5F5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E8E67C22D7F94000C5F5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E8E65722D7F93E00C5F5EC = {
+			isa = PBXGroup;
+			children = (
+				18E8E66222D7F93E00C5F5EC /* Emojional */,
+				18E8E67722D7F94000C5F5EC /* EmojionalTests */,
+				18E8E68222D7F94000C5F5EC /* EmojionalUITests */,
+				18E8E66122D7F93E00C5F5EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E8E66122D7F93E00C5F5EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E8E66022D7F93E00C5F5EC /* Emojional.app */,
+				18E8E67422D7F94000C5F5EC /* EmojionalTests.xctest */,
+				18E8E67F22D7F94000C5F5EC /* EmojionalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E8E66222D7F93E00C5F5EC /* Emojional */ = {
+			isa = PBXGroup;
+			children = (
+				18E8E66322D7F93E00C5F5EC /* AppDelegate.swift */,
+				18E8E66522D7F93E00C5F5EC /* ViewController.swift */,
+				18E8E66722D7F93E00C5F5EC /* Main.storyboard */,
+				18E8E66A22D7F94000C5F5EC /* Assets.xcassets */,
+				18E8E66C22D7F94000C5F5EC /* LaunchScreen.storyboard */,
+				18E8E66F22D7F94000C5F5EC /* Info.plist */,
+			);
+			path = Emojional;
+			sourceTree = "<group>";
+		};
+		18E8E67722D7F94000C5F5EC /* EmojionalTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E8E67822D7F94000C5F5EC /* EmojionalTests.swift */,
+				18E8E67A22D7F94000C5F5EC /* Info.plist */,
+			);
+			path = EmojionalTests;
+			sourceTree = "<group>";
+		};
+		18E8E68222D7F94000C5F5EC /* EmojionalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E8E68322D7F94000C5F5EC /* EmojionalUITests.swift */,
+				18E8E68522D7F94000C5F5EC /* Info.plist */,
+			);
+			path = EmojionalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E8E65F22D7F93E00C5F5EC /* Emojional */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E8E68822D7F94000C5F5EC /* Build configuration list for PBXNativeTarget "Emojional" */;
+			buildPhases = (
+				18E8E65C22D7F93E00C5F5EC /* Sources */,
+				18E8E65D22D7F93E00C5F5EC /* Frameworks */,
+				18E8E65E22D7F93E00C5F5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emojional;
+			productName = Emojional;
+			productReference = 18E8E66022D7F93E00C5F5EC /* Emojional.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E8E67322D7F94000C5F5EC /* EmojionalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E8E68B22D7F94000C5F5EC /* Build configuration list for PBXNativeTarget "EmojionalTests" */;
+			buildPhases = (
+				18E8E67022D7F94000C5F5EC /* Sources */,
+				18E8E67122D7F94000C5F5EC /* Frameworks */,
+				18E8E67222D7F94000C5F5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E8E67622D7F94000C5F5EC /* PBXTargetDependency */,
+			);
+			name = EmojionalTests;
+			productName = EmojionalTests;
+			productReference = 18E8E67422D7F94000C5F5EC /* EmojionalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E8E67E22D7F94000C5F5EC /* EmojionalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E8E68E22D7F94000C5F5EC /* Build configuration list for PBXNativeTarget "EmojionalUITests" */;
+			buildPhases = (
+				18E8E67B22D7F94000C5F5EC /* Sources */,
+				18E8E67C22D7F94000C5F5EC /* Frameworks */,
+				18E8E67D22D7F94000C5F5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E8E68122D7F94000C5F5EC /* PBXTargetDependency */,
+			);
+			name = EmojionalUITests;
+			productName = EmojionalUITests;
+			productReference = 18E8E67F22D7F94000C5F5EC /* EmojionalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E8E65822D7F93E00C5F5EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18E8E65F22D7F93E00C5F5EC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					18E8E67322D7F94000C5F5EC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18E8E65F22D7F93E00C5F5EC;
+					};
+					18E8E67E22D7F94000C5F5EC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18E8E65F22D7F93E00C5F5EC;
+					};
+				};
+			};
+			buildConfigurationList = 18E8E65B22D7F93E00C5F5EC /* Build configuration list for PBXProject "Emojional" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E8E65722D7F93E00C5F5EC;
+			productRefGroup = 18E8E66122D7F93E00C5F5EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E8E65F22D7F93E00C5F5EC /* Emojional */,
+				18E8E67322D7F94000C5F5EC /* EmojionalTests */,
+				18E8E67E22D7F94000C5F5EC /* EmojionalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E8E65E22D7F93E00C5F5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8E66E22D7F94000C5F5EC /* LaunchScreen.storyboard in Resources */,
+				18E8E66B22D7F94000C5F5EC /* Assets.xcassets in Resources */,
+				18E8E66922D7F93E00C5F5EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E8E67222D7F94000C5F5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E8E67D22D7F94000C5F5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E8E65C22D7F93E00C5F5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8E66622D7F93E00C5F5EC /* ViewController.swift in Sources */,
+				18E8E66422D7F93E00C5F5EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E8E67022D7F94000C5F5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8E67922D7F94000C5F5EC /* EmojionalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E8E67B22D7F94000C5F5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8E68422D7F94000C5F5EC /* EmojionalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E8E67622D7F94000C5F5EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E8E65F22D7F93E00C5F5EC /* Emojional */;
+			targetProxy = 18E8E67522D7F94000C5F5EC /* PBXContainerItemProxy */;
+		};
+		18E8E68122D7F94000C5F5EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E8E65F22D7F93E00C5F5EC /* Emojional */;
+			targetProxy = 18E8E68022D7F94000C5F5EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E8E66722D7F93E00C5F5EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E8E66822D7F93E00C5F5EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E8E66C22D7F94000C5F5EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E8E66D22D7F94000C5F5EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E8E68622D7F94000C5F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E8E68722D7F94000C5F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E8E68922D7F94000C5F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Emojional/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cady.Emojional;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E8E68A22D7F94000C5F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Emojional/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cady.Emojional;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E8E68C22D7F94000C5F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojionalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cady.EmojionalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emojional.app/Emojional";
+			};
+			name = Debug;
+		};
+		18E8E68D22D7F94000C5F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojionalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cady.EmojionalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emojional.app/Emojional";
+			};
+			name = Release;
+		};
+		18E8E68F22D7F94000C5F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojionalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cady.EmojionalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emojional;
+			};
+			name = Debug;
+		};
+		18E8E69022D7F94000C5F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojionalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cady.EmojionalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emojional;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E8E65B22D7F93E00C5F5EC /* Build configuration list for PBXProject "Emojional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E8E68622D7F94000C5F5EC /* Debug */,
+				18E8E68722D7F94000C5F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E8E68822D7F94000C5F5EC /* Build configuration list for PBXNativeTarget "Emojional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E8E68922D7F94000C5F5EC /* Debug */,
+				18E8E68A22D7F94000C5F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E8E68B22D7F94000C5F5EC /* Build configuration list for PBXNativeTarget "EmojionalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E8E68C22D7F94000C5F5EC /* Debug */,
+				18E8E68D22D7F94000C5F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E8E68E22D7F94000C5F5EC /* Build configuration list for PBXNativeTarget "EmojionalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E8E68F22D7F94000C5F5EC /* Debug */,
+				18E8E69022D7F94000C5F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E8E65822D7F93E00C5F5EC /* Project object */;
+}
