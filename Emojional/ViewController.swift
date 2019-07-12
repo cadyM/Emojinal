@@ -9,8 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let emojis = ["🍏" : "Apple" , "🍟" : "French Fries"]
     
     @IBAction func showMessage (sender : UIButton){
+        let selectedEmotion = sender.titleLabel?.text
         let alertController = UIAlertController (title : "Hi", message : "Hi" , preferredStyle: UIAlertController.Style.alert )
         alertController.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
